@@ -12,4 +12,4 @@ def planning(request):
     return HttpResponse("<h4>Плана нет, погода нелетная!"
                         " спим, в небе только шамилич</h4>")
 def instructor_flight_time(request):
-    return HttpResponse("<h4>если вы шамилич ваш налет - 100500 часов</h4><h1>Если вас не устраивает ваш налет, вам <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'>сюда</a> </h1>")
+    return HttpResponse("<h4>Еси вы Шамилич ваш налет - 100500 часов</h4><h1>Если вас не устраивает ваш налет, вам <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'>сюда</a> </h1>")
