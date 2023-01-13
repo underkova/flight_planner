@@ -11,3 +11,6 @@ def _str_ (self):
 class Meta:
     verbose_name = 'Студент'
     verbose_name_plural = 'Студенты' #вот эта штука не работает
+
+class groups (models.Model):
+    group_number = models.CharField('Номер группы', max_length=10)

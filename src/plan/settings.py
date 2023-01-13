@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'main',
+    'students',
+    'instructors',
     'django.contrib.admin', #это приложение беспечивает работу панели администратора
     'django.contrib.auth',
     'django.contrib.contenttypes',
